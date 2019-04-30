@@ -1,0 +1,135 @@
+body{
+  background-color: #E9F8F6;
+  font-family: "Verdana", Geneva, sans-serif
+}
+#bar{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  padding-left: 30px;
+  background-color: #FFFFFF;
+  color: #3D5A80;
+  border-bottom: 1px solid #3D5A80;
+  box-shadow: 40px;
+}
+#content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 150px;
+  margin-left: 150px;
+  margin-top: 70px;
+}
+#text {
+  /* text-align: center; */
+  font-size: 15px;
+  color: #707070
+}
+#title {
+  border: 2px solid #3D5A80;
+  font-size: 37px;
+  padding: 10px;
+  color: #393838;
+  margin: 20px;
+  background-color: #FFFFFF;
+}
+
+#fact-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #FFFFFF;
+  border: 1px solid #3D5A80;
+  padding: 10px;
+  margin: 20px;
+}
+#box-title {
+  font-size: 27px;
+}
+.cols {
+  display: flex;
+  flex-direction: row;
+}
+#col1 {
+  margin-right: 10px;
+}
+#accent {
+  color: #EA93A9;
+}
+.pictures {
+  display: flex;
+  flex-direction: column;
+}
+#facts-row{
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+}
+.fact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 80px;
+  margin-left: 80px;
+}
+#two {
+  position: relative;
+  left: 23px;
+}
+.circles {
+  padding-top: 30px;
+  transition: opacity .5s, transform .5s;
+
+}
+.circles:hover {
+  cursor: pointer;
+  opacity: .5;
+  transform: scale(0.9)
+}
+#lightbox-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+.lightbox {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    background-color: #FFFFFF;
+    padding: 10px 100px;
+}
+.box-title {
+  font-size: 30px;
+  padding: 15px;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.quotes{
+  margin-left: 60px;
+}
+#author {
+  color: #EA93A9;
+  font-size: 13px
+}
+#home{
+  text-decoration: none;
+  color: #3D5A80;
+}
+#home:hover{
+  cursor: pointer;
+}
+.hidden {
+    display: none;
+}
